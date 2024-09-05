@@ -12,7 +12,7 @@ def addBook():
     print(f"Book details are {bookCollection}\n")
 
 def searchBook():
-    byAuthorGenre = input("Search the book by Genre/Author: ")
+    byAuthorGenre = input("Search the book by Genre/Author: ").lower()
     searchItem = input("please enter Genre or Author Name: ").lower()
     # print(bookCollection.values())
     match byAuthorGenre:
